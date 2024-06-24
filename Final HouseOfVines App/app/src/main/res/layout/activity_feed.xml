@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Feed">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_wine_bar_24"
+        android:text="WINE FEED"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/Article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¬ARTICLES"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <ImageView
+        android:id="@+id/yt3"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="556dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/yt3" />
+
+    <ImageView
+        android:id="@+id/Article1"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="156dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/art1" />
+
+    <TextView
+        android:id="@+id/text_view_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/hyperlink"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <ImageView
+        android:id="@+id/Article2"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="256dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/art2" />
+
+
+    <TextView
+        android:id="@+id/text_view_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/hyperlink2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <TextView
+        android:id="@+id/youtube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¬YOUTUBE"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <ImageView
+        android:id="@+id/yt1"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="468dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/yt1" />
+
+    <TextView
+        android:id="@+id/text_view_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/hyperlink3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <ImageView
+        android:id="@+id/yt2"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="648dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/yt2" />
+
+    <TextView
+        android:id="@+id/text_view_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/hyperlink4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+    <TextView
+        android:id="@+id/text_view_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/hyperlink5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="674dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

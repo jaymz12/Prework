@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/underline"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewList"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="TODO" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No of Items = "
+            android:textColor="#F54646"
+            android:id="@+id/viewInventory"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="3dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F54646"
+            android:id="@+id/totalnoitem"
+            android:text="0"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F54646"
+            android:text=" Total sum = $ "
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F54646"
+            android:id="@+id/totalsum"
+            android:text="0"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

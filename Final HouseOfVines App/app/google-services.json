@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "349704550637",
+    "project_id": "wineapplication-a9530",
+    "storage_bucket": "wineapplication-a9530.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349704550637:android:f27efd31f048f3cf9d34e4",
+        "android_client_info": {
+          "package_name": "com.example.thehouseofvines"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349704550637-jnrr03uk6657ngic03ediekh65r7kb5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy8jwbh1bJPhIle1SvAFh9-BLkFbInWBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349704550637-jnrr03uk6657ngic03ediekh65r7kb5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

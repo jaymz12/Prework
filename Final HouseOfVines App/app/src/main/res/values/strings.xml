@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TheHouseOfVines</string>
+    <string name="select_category">Select category</string>
+    <string name="hyperlink">Open <a href="https://winefolly.com/articles/"> Article 1</a></string>
+    <string name="hyperlink2">Open <a href="https://www.thewinecellarinsider.com/wine-topics/wine-education-articles/various-wine-articles-to-help-you-learn-understand-and-enjoy-wine/"> Article 2</a></string>
+
+    <string name="hyperlink3">Open <a href="https://www.youtube.com/watch?v=QF6xzSyet4U"> YouTube video 1</a></string>
+    <string name="hyperlink4">Open <a href="https://www.youtube.com/watch?v=BZt4XyeXCRw"> YouTube video 2</a></string>
+    <string name="hyperlink5">Open <a href="https://www.youtube.com/watch?v=hGJWUg4wx78"> YouTube video 3</a></string>
+</resources>

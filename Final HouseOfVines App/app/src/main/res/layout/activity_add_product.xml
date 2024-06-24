@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AddProduct">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="TODO" />
+
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="56dp"
+        android:prompt="@string/select_category"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wineSerialNumber" />
+
+    <EditText
+        android:id="@+id/wineName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:hint="Wine's name"
+        android:textColorHint="@color/black"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:drawableLeft="@drawable/baseline_wine_bar_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"/>
+
+    <EditText
+        android:id="@+id/wineDescription"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:hint="Description of wine"
+        android:textColorHint="@color/black"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:drawableLeft="@drawable/baseline_description_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"/>
+
+
+
+    <EditText
+        android:id="@+id/purchaseDate"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:hint="Date of Acquisition"
+        android:textColor="#000000"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:drawableLeft="@drawable/baseline_calendar_month_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"/>
+
+
+    <EditText
+        android:id="@+id/purchasePrice"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="#000000"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:drawableLeft="@drawable/money_asset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <EditText
+        android:id="@+id/wineSerialNumber"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="290dp"
+        android:ems="10"
+        android:hint="Serial Number"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="#000000"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:drawableLeft="@drawable/baseline_numbers_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="200dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="31dp"
+        android:backgroundTint="#F44336"
+        android:hint="ADD DETAILS"
+        android:textColor="#0B0A0A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wineSerialNumber"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
